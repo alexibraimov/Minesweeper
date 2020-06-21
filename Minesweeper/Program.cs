@@ -6,7 +6,7 @@ namespace Minesweeper
     public class Program
     {
         static void Main()
-        {
+        { //коммент 
             var form = new ParametersForm();
             Application.Run(form);
             if (form.Ok)
